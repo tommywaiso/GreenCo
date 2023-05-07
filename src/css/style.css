@@ -1,0 +1,354 @@
+/*-------------reset------------*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+/*-------------------------------*/
+body {
+  background-color: #E5E5E5;
+}
+
+.header {
+  position: relative;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__menu {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav__menu:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.nav__Home {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav__Home:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header__plant-img {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding: 165px 270px 0px 496px;
+}
+
+.header__bg-text {
+  padding-right: 5px;
+  padding-left: 5px;
+  position: absolute;
+  top: 416px;
+  z-index: -5;
+}
+.header__bg-text img {
+  opacity: 0.8;
+}
+.header__bg-text p {
+  padding-top: 16px;
+  font-family: "Akronim";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #7A797A;
+}
+.header__bg-text h1 {
+  display: none;
+}
+
+.main {
+  position: relative;
+}
+
+.main__wrapper-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.main__wrapper {
+  background-color: #4A4A4A;
+}
+
+.main__img {
+  padding-right: 5px;
+  padding-left: 5px;
+  position: absolute;
+  top: 141px;
+}
+
+.main__text {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 194px;
+  margin-left: 777px;
+  max-width: 433px;
+}
+
+.main___text-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 81px;
+  line-height: 100px;
+  letter-spacing: 18.9844px;
+  color: #FFFFFF;
+}
+
+.main__text-desc {
+  font-family: "Mukta Vaani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: justify;
+  color: #FFFFFF;
+  margin-bottom: 149px;
+  padding-bottom: 31px;
+  border-bottom: 1px solid #FFFFFF;
+  position: relative;
+}
+.main__text-desc::after {
+  position: absolute;
+  left: 0px;
+  top: 239px;
+  display: block;
+  content: "";
+  width: 126px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+.main__social {
+  top: 475px;
+  left: 42px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main__social a {
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.main__social a:last-child {
+  margin-bottom: 0;
+}
+.main__social a:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.main__wrapper-2 {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.main__btn-top {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 780px;
+  margin-top: 124px;
+}
+
+.main__btn {
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.main__btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main__btn-text {
+  margin-right: 59px;
+  font-family: "Koulen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 8px;
+  color: #7A797A;
+  border: 3px solid #979797;
+  padding: 15px 46px 15px 48px;
+}
+
+.main__vases-wrapper {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding: 0px 160px;
+  margin-top: 292px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__vases-title {
+  word-break: break-all;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 115.3%;
+  letter-spacing: 10.6667px;
+  color: #7A797A;
+  max-width: 33px;
+  margin-right: 24px;
+}
+
+.main__vases {
+  margin-right: 10px;
+  margin-bottom: 110px;
+}
+.main__vases:last-child {
+  margin-right: 0;
+}
+
+.main__vases-img-desc-1 {
+  font-family: "Mukta Vaani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 35px;
+  color: #4A4A4A;
+  text-align: center;
+  max-width: 280px;
+  margin: 24px auto;
+  margin-bottom: 0px;
+}
+
+.main__vases-img-desc-2 {
+  font-family: "Mukta Vaani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 35px;
+  color: #4A4A4A;
+  text-align: center;
+  max-width: 390px;
+  margin: 24px auto;
+  margin-bottom: 0px;
+}
+
+.main__btn-bottom {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 622px;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer__img {
+  position: absolute;
+  left: 107px;
+  top: -120px;
+}

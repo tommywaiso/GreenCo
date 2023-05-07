@@ -1,0 +1,214 @@
+@media (max-width: 1150px) {
+	.header__bg-text {
+		top: 316px;
+		margin-left: 100px;
+		h1 {
+
+			display: block;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 160px;
+			line-height: 115.3%;
+			letter-spacing: 30.6667px;
+			color: #7A797A;
+			opacity: 0.5;
+		}
+		img {
+			display: none;
+		}	
+	}
+	.header__plant-img {
+		padding-right: 5px;
+		padding-left: 5px;
+		padding: 120px 220px 0px 396px;
+	}
+	.main__img {
+		top: 0px;
+	}
+	.main__text {
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-top: 194px;
+		margin-left: 647px;
+		max-width: 433px;
+	}
+}
+@media (max-width: 1090px) {
+	.main__wrapper {
+		display: none;
+	}
+	.main__btn-top {
+		display: none;
+	}
+	.header__plant-img {
+		display: none;
+	}
+	.header {
+		height: 200px;
+	}
+	.header__bg-text {
+		top: 216px;
+		margin-left: 220px;
+		h1 {
+
+			display: block;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 100px;
+			line-height: 115.3%;
+			letter-spacing: 30.6667px;
+			color: #7A797A;
+			opacity: 0.5;
+		}
+		p {
+			display: none;
+		}
+	}
+	.main__wrapper-2 {
+	max-width: 100%;
+	margin: 0;
+	}
+	.main__vases-wrapper {
+		padding: 0px 20px;
+	}
+	.main__vases-img-desc-2 {
+	max-width: 290px;
+	margin: 24px auto;
+	margin-bottom: 0px;
+	}
+}
+@media (max-width: 920px) {
+	.main__vases:last-child {
+		display: none;
+	}
+	.main__vases-wrapper {
+		padding: 0px 270px;
+	}
+	.header__bg-text {
+		top: 216px;
+		margin-left: 160px;
+	}
+	.main__btn-bottom {
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-left: 322px;
+	}
+	.footer__img {
+		position: absolute;
+		left: 17px;
+		top: -120px;
+	}
+}
+@media (max-width: 800px) {
+	.main__vases-wrapper {
+		padding: 0px 180px;
+	}
+	.header__bg-text {
+		top: 216px;
+		margin-left: 160px;
+		h1 {
+			font-size: 60px;
+		}
+	}
+	.main__btn-bottom {
+		margin-left: 232px;
+	}
+	.footer__img {
+		position: absolute;
+		left: 0px;
+		top: -120px;
+	}
+}
+@media (max-width: 650px) {
+	.main__vases-wrapper {
+		padding: 0px 100px;
+		margin-top: 182px;
+	}
+	.header__bg-text {
+		top: 206px;
+		margin-left: 80px;
+		h1 {
+			font-size: 60px;
+		}
+	}
+	.main__btn-bottom {
+		margin-left: 192px;
+	}
+	.footer__img {
+		position: absolute;
+		left: 0px;
+		top: -120px;
+	}
+}
+@media (max-width: 550px) {
+	.main__vases-wrapper {
+		padding: 0px 50px;
+		margin-top: 52px;
+	}
+	.header__bg-text {
+		top: 106px;
+		margin-left: 50px;
+		h1 {
+			font-size: 50px;
+		}
+	}
+	.main__btn-bottom {
+		margin-left: 5px;
+	}
+	.footer__img {
+		display: none;
+	}
+}
+@media (max-width: 470px) {
+	.main__vases-wrapper {
+		padding: 0px 5px;
+		margin-top: 52px;
+	}
+	.header__bg-text {
+		top: 106px;
+		margin-left: 20px;
+		h1 {
+			font-size: 40px;
+		}
+	}
+	.main__btn-bottom {
+		margin-left: 5px;
+	}
+}
+@media (max-width: 390px) {
+	.main__vases-title {
+		display: none;
+	}
+	.main__vases-wrapper {
+		padding: 0px 5px;
+		margin-top: 0px;
+	}
+	.header__bg-text {
+		top: 106px;
+		margin-left: 5px;
+		h1 {
+			font-size: 30px;
+		}
+	}
+	.main__btn-bottom {
+		margin-left: 5px;
+	}
+}
+@media (max-width: 320px) {
+	.main__vases-wrapper {
+		padding: 0px 5px;
+		margin-top: 0px;
+	}
+	.header__bg-text {
+		top: 106px;
+		margin-left: 5px;
+		h1 {
+			font-size: 15px;
+		}
+	}
+	.main__btn-bottom {
+		margin-left: 5px;
+	}
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Akronim;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Akronim"),
+       url("../fonts/Akronim-Regular.woff2") format('woff2'),
+       url("../fonts/Akronim-Regular.woff") format('woff'),
+       url("../fonts/Akronim-Regular.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: Mukta Vaani;
+  font-weight: 400;
+  font-style: normal;
+  src: local("MuktaVaani"),
+       url("../fonts/MuktaVaani-Regular.woff2") format('woff2'),
+       url("../fonts/MuktaVaani-Regular.woff") format('woff'),
+       url("../fonts/MuktaVaani-Regular.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Akronim"),
+       url("../fonts/Roboto-Regular.woff2") format('woff2'),
+       url("../fonts/Roboto-Regular.woff") format('woff'),
+       url("../fonts/Roboto-Regular.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: Work Sans;
+  font-weight: 400;
+  font-style: normal;
+  src: local("WorkSans"),
+       url("../fonts/WorkSans-Regular.woff2") format('woff2'),
+       url("../fonts/WorkSans-Regular.woff") format('woff'),
+       url("../fonts/WorkSans-Regular.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: Koulen;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Koulen"),
+       url("../fonts/Koulen-Regular.woff2") format('woff2'),
+       url("../fonts/Koulen-Regular.woff") format('woff'),
+       url("../fonts/Koulen-Regular.eot") format('eot');
+  font-display: swap;
+}
